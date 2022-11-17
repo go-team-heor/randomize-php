@@ -1,0 +1,24 @@
+{
+    "name": "go-team-heor/randomize-php",
+    "description": "Simple library for doing silly psuedorandom stuff in PHP",
+    "type": "library",
+    "require": {
+        "ircmaxell/random-lib": "^1.2"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^7.2",
+        "phpspec/prophecy": "^1.15"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoTeamHeor\\RandomizePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samantha Quiñones",
+            "email": "samantha@ieatkillerbe.es"
+        }
+    ]
+}
